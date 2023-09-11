@@ -7,3 +7,6 @@ host=gw1|2|3|4|5.dastchain.com
 protocol=ldaps 
   username=[^ ]3 
   password=[ ^]4
+
+send = p=1&i=2&v=3&s=4
+req
