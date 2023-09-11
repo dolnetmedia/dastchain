@@ -1,10 +1,10 @@
 host=auth1|2|3.dastchain.com
-protocol=ldaps
+protocol=ldaps/3269
   username=[^ ]1
   password=[ ^]2
 
 host=gw1|2|3|4|5.dastchain.com
-protocol=ldaps
+protocol=ldaps/3269
   username=[^ ]3
   password=[ ^]4
 
