@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: pull
+metadata:
+  name: dc-sad
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: dc-nod
+  template:
+    metadata:
+      labels:
+        app: dc-nod
+    spec:
+      containers:
+      - name: dc-nod
+        image: dcECS\\K8s/dc-nod
+        ports:
+        - containerPort: 7777
